@@ -7,7 +7,7 @@ fun convertCelsiusToFahrenheit(celsius: Double): Double {
     return (celsius * 9/5) + 32
 }
 
-fun main() {
+// fun main() {
     val tempCelsius = 25.0
     val tempFahrenheit = convertCelsiusToFahrenheit(tempCelsius)
 
@@ -68,7 +68,7 @@ class Cat : Animal() {
     }
 }
 
-fun main() {
+// fun main() {
     val dog = Dog()
     val cat = Cat()
 
